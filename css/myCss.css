@@ -1,0 +1,133 @@
+/*html, header, footer{
+    background-image: linear-gradient( rgba(245, 245, 220, 0.5),  rgba(245, 245, 220, 0.5)), url(https://cdn.pixabay.com/photo/2020/09/02/08/19/dinner-5537679_1280.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+html{
+    background-color: rgb(245, 245, 220); 
+    font-family: sans-serif;
+}
+
+header{
+    padding: 20px;
+}
+body{
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    
+}
+
+.headerHome{
+    width: 50%;
+}
+
+.logo{
+    align-items: center;
+    width: 90px;
+    height: 90px;
+}
+
+.title{
+    position: absolute;
+    padding-left: 100px;
+    margin-top: -65px;
+    
+}
+ .navList {
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+ }
+
+ .navList li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+ }
+
+ .aNavBar{
+    align-items: center;
+    text-align: center;
+    
+ }
+
+.aNavBar :hover{
+    background-color: #d9c911; 
+    transition: 0.5s;
+    opacity: 0.7;
+        
+}
+
+.linkNav{
+    text-decoration: none;
+    color: black;
+}
+.linkNav :hover{
+    
+    color: rgb(245, 245, 245);
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.homeBody{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 40%;
+}
+
+.rodape{
+
+    text-align: center;
+}
+
+.cardapioBody{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.areaCardapio :hover{
+        background-color:  #d9c911;
+}
+
+.cardapioImg{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.textoImg{
+    margin-left: 85px;
+    position: absolute;
+
+}
+.contatoBody{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.tableContato{
+    text-align: center;
+    margin-left: 35%;
+    
+}
+.formArea{
+    margin-top: 100px;
+}
+.formsPadrao{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.botao{
+   
+    border-radius: 10px;
+    width: 60px;
+}
